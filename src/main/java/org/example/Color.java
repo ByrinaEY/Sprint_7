@@ -1,6 +1,6 @@
 package org.example;
 
 public class Color {
-    public static final String COLOR_1 = "BLACK";
-    public static final String COLOR_2 = "GREY";
+    public static final String COLOR_ONE = "BLACK";
+    public static final String COLOR_TWO = "GREY";
 }
