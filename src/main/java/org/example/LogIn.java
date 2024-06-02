@@ -9,11 +9,11 @@ import static io.restassured.RestAssured.given;
 
 public class LogIn {
     public static final String URL = "https://qa-scooter.praktikum-services.ru/";
-    public static final String LOGIN = RandomStringUtils.randomAlphabetic(8); //"byrinaE";
-    public static final String PASSWORD = RandomStringUtils.randomAlphabetic(8);//"12345";
-    public static final String PASSWORD_TWO = RandomStringUtils.randomAlphabetic(8);//"54321";
-    public static final String INCORRECT_LOGIN = RandomStringUtils.randomAlphabetic(8);//"E_Byrina";
-    public static final String FIRST_NAME = RandomStringUtils.randomAlphabetic(8);//"ekaterina";
+    public static final String LOGIN = RandomStringUtils.randomAlphabetic(8);
+    public static final String PASSWORD = RandomStringUtils.randomAlphabetic(8);
+    public static final String PASSWORD_TWO = RandomStringUtils.randomAlphabetic(8);
+    public static final String INCORRECT_LOGIN = RandomStringUtils.randomAlphabetic(8);
+    public static final String FIRST_NAME = RandomStringUtils.randomAlphabetic(8);
     private static final String CREATE_COURIER = "api/v1/courier";
     private static final String CREATE_COURIER_LOGIN = "/api/v1/courier/login";
     private static final String DELETE_COURIER = "/api/v1/courier/";
